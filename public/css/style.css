@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.nav-bar h1{
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: normal;
+    
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: brown;
+}
+
+.nav-bar a:hover{
+    color: tomato;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.nav-bar ul a{
+    text-decoration: none;
+    color: brown;
+}
+
+/* HOME */
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container{
+    background-color: rgba(211, 211, 211, 0.116);
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+
+/* ADD BOOK */
+
+.book-form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.img-container img{
+    width: 300px;
+    height: 300px;
+}
+
+.book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(211, 211, 211, 0.075);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.book-container h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    border-bottom: 1px solid black;
+}
+
+.book-container label{
+    display: block;
+    margin: 10px 0px;
+    font-size: 30px;
+}
+
+.book-container input{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn-submit{
+    margin: 8px auto;
+}
+
+.btn-submit button{
+    border: 1px solid black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.btn-submit button:hover{
+    background-color: lightgreen;
+    cursor: pointer;
+}
