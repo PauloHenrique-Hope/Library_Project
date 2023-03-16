@@ -20,6 +20,12 @@ app.get('/', (req, res) => {
     res.render('home')
 })
 
+app.get('/all/books', async(req, res) => {
+    const book = await Book.findAll({raw: true})
+
+    res.render('books', {book})
+})
+
 app.get("/book/create", (req, res) => {
     res.render('addBook')
 })

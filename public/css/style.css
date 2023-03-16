@@ -125,3 +125,29 @@
     background-color: lightgreen;
     cursor: pointer;
 }
+
+/* BOOK CONTENT SECTION*/
+
+.books-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    
+}
+
+.container-content{
+   
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 15px;
+}
+
+.box{
+    border: 1px solid black;
+    width: 300px;
+    height: 70px;
+    padding: 7px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(95, 177, 204);
+}
